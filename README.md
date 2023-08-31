@@ -327,5 +327,8 @@ Network services > Load balancing
 ```
 
 Lá terá nosso Load Balancer (web-map-http). Clicando nele e indo na opção "Backend", teremos nossas instâncias de servidores listadas e com a indicação "Healthy", que significa que estão respondendo ao tráfego normalmente.
+![Alt text](image-4.png)
 
 Podemos verificar isso, acessando diretamente o endereço ip do Load Balancer pelo próprio navegador e atualizando a página várias vezes. Podemos observer que o conteúdo da página irá variar, indicando qual servidor respondeu aquela requisição. Constatando que nosso Load Balancer está implementado corretamente.
+![Alt text](image-2.png)
+![Alt text](image-3.png)
